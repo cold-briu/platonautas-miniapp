@@ -120,7 +120,7 @@ export default function Home() {
     }, 300);
 
     return () => clearInterval(timer);
-  }, []);
+  }, [bootSequence.length]);
 
   if (!bootComplete) {
     return (
@@ -259,8 +259,8 @@ export default function Home() {
                     └─ response_time: &lt;100ms
                   </div>
                   <div className="text-[#22c55e] text-sm">
-                    // Experience fast, reliable performance with our<br />
-                    // optimized infrastructure and modern technology stack.
+                    {/* Experience fast, reliable performance with our */}<br />
+                    {/* optimized infrastructure and modern technology stack. */}
                   </div>
                 </div>
 
@@ -278,8 +278,8 @@ export default function Home() {
                     └─ monitoring: enabled
                   </div>
                   <div className="text-[#22c55e] text-sm">
-                    // Built with security-first principles and<br />
-                    // 99.9% uptime guarantee to keep your data safe.
+                    {/* Built with security-first principles and */}<br />
+                    {/* 99.9% uptime guarantee to keep your data safe. */}
                   </div>
                 </div>
 
@@ -297,8 +297,8 @@ export default function Home() {
                     └─ collaboration: high
                   </div>
                   <div className="text-[#22c55e] text-sm">
-                    // Join thousands of developers and innovators<br />
-                    // in our vibrant community of builders.
+                    {/* Join thousands of developers and innovators */}<br />
+                    {/* in our vibrant community of builders. */}
                   </div>
                 </div>
               </div>
